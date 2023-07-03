@@ -1,6 +1,8 @@
-# mastodon hesap nasıl taşınır?
+# bir mastodon hesabı nasıl taşınır?
 
-### neleri taşıyabiliriz
+> bu rehber bir mastodon hesabını başka bir mastodon hesabına nasıl taşıyabileceğiniz ve yönlendirebileceğinizi göstermeyi amaçlamaktadır.
+
+## neleri taşınabilir?
 
 - takipçiler
 - takip edilenler
@@ -8,63 +10,80 @@
 - susturulan hesaplar
 - yer imleri
 
-gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz tar.gz uzantılı arşiv dosyasının içinde outbox.csv adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz. arşivinizi istemek için aşağıda da gösterdiğim gibi dışarı aktar sekmesinin içinde arşivinizi isteyin düğmesine tıklayabilirsiniz.
+## neleri taşınamaz?
 
-### #1
+gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz .tar.gz uzantılı arşiv dosyasının içinde "outbox.csv" adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz. ayrıca hesabınıza dair diğer tüm veriler arşiv dosyasının içinde mevcuttur.
 
-taşımak istediğiniz sunucuda hesap açın.
+isterseniz taşımadan önce eski hesabınızdaki gönderileri yeniden paylaşarak (boostlayarak) yeni hesabınızda gözükmesini sağlayabilirsiniz.
 
-### #2
+### #1 taşınmak istediğiniz sunucuda hesap açın
 
-taşıyacağımız (eski) hesaba giriş yapıp tarayıcıdan ayarlar kısmına giriyoruz ve dışa aktar kısmından takip edilenler listemizi indiriyoruz. ileride lazım olacak. eğer engellenenler, susturulanlar gibi taşımak istediğiniz başka bir liste varsa onları da indirin.
+taşınmak istediğiniz sunucuya karar verdikten sonra o sunucuda bir hesap açın. daha önce açtığınız hesabı açmaktan hiçbir farkı yoktur. unutmayın bu açtığınız hesap önceki hesabınızdan tamamen farklı bir hesap. kullanıcı adını aynı seçseniz bile verileriniz başka bir sunucuda tutulacak ve erişeceğiniz adres farklı olacak.
 
-![işaretli olan csv yazısına tıklayın ve takip edilenler listesini indirin](https://i.hizliresim.com/5ewv7sz.jpg)
+> eskihesabim@eski.mastodon > yenihesabım@yeni.mastodon
+
+> eğer eski kullandığınız kullanıcı adı müsait ise aynı adı da alabilirsiniz:
+> favoritakmaismim@eski.mastodon > favoritakmaismim@yeni.mastodon
+
+### #2 hesap takma adı oluşturma
+
+yeni hesabınıza bir tarayıcı üzerinden giriş yapın. hesap sekmesini ve altındaki hesap ayarları sekmesini bulun. sayfanın aşağısındaki "farklı bir hesaptan taşınma" başlığı altındaki bağlantıya tıklayın.
+
+![hesap ayarları / hesap takma adı](./img-src/hesap-ayarlari-farkli-bir-hesaptan-tasima-800x600.png)
+
+![hesap takma adı](./img-src/hesap-takma-adlari-800x600.png)
+
+buraya eski hesabınızın kullanıcı adını girin ve takma ad oluştur adlı düğmeye tıklayın.
+
+> kutucuğa eskihesabim@eski.mastodon kullanıcı adınızı girmeniz gerekiyor.
+
+### #3 verileri dışa aktarma
+
+tarayıcınızdan taşınacak/yönlendirilecek olan (yani eski hesabınız) hesaba giriş yapın. ayarlar kısmına girin. içe ve dışa aktar adlı sekmeye ve sonra veriyi dışa aktar sekmesine tıklayın. takip edilen yazan satırın sonundaki "csv" düğmesine tıklayın ve "following_accounts.csv" adlı dosyayı kaydedin. bu dosya takip ettiğiniz kişilerin listesini içerir. yerini unutmayın lazım olacak. ayrıca bu alanda isterseniz diğer verilerinizi de indirebilirsiniz veya arşivinizi isteyebilirisiniz.
+
+![veriyi dışa aktar / takip edilenler listesi](./img-src/veriyi-disa-aktar-takip-edilen-800x600.png)
 
 > işaretli olan csv yazısına tıklayın ve takip edilenler listesini indirin.
 
-indirdiğiniz dosyanın yerini lütfen kaybetmeyin.
 
-### #3
+### #4 eski hesabınızı yeni hesaba yönlendirme
 
-ayarlar kısmından hesap seçeneğinin altındaki hesap ayarları sekmesine girin. aşağıda bulunan farklı bir hesaba taşı başlığını bulun. sonra "buradan yapılandırın" bağlantısına tıklayın.
+eski hesabınıza bir tarayıcı üzerinden giriş yapın ve ayarları açın. hesap sekmesi altındaki hesap ayarları sekmesinii açın. sayfanın aşağısındaki "farklı bir hesaba taşıyın" adlı başlığın altındaki bağlantıya tıklayın.
 
-![enter image description here](https://i.hizliresim.com/b417w8z.jpg)
+isterseniz uyarıları tekrar okuyup işlemi yapmak isteyip istemediğinizden emin olabilirsiniz.
 
-![enter image description here](https://docs.joinmastodon.org/assets/account-redirect.jpg)
+buradaki kutucuklara yeni hesabınınızın kullanıcı adını ve eski hesabınızın parolasını girin. takipçileri taşı düğmesine tıkladıktan tüm takipçileriniz yeni hesabınıza yönlendirilecek.
 
-önceden açtığımız hesabı "kullaniciadi@alanadi" biçiminde ve mevcut parolanızı ilgili kutucuklara girin. sonra yönlendirmeyi ayarla düğmesine tıklayın.
+bu işlem uzun sürebilir. nihayetinde tüm takipçileriniz herhangi bir bildirim almadan yeni hesabınızı takip ediyor olacak.
 
-### #4
+![hesap ayarları / farklı bir hesaba taşıyın](./img-src/hesap-ayarlari-farkli-bir-hesaba-tasiyin-800x600.png)
 
-taşımak istediğiniz yeni hesabınıza giriş yapın ayarlar > hesap ayarları yolunu takip ederek aşağıdaki ekrana ulaşın. alt kısımdaki başka bir hesaptan taşıma başlığının altındaki hesap takma adı oluşturun kısmına tıklayın.
+![hesap taşıma](./img-src/hesap-tasima-800x600.png)
 
-![enter image description here](https://i.hizliresim.com/tthgb9s.jpg)
+> kutucuğa yenihesabim@yeni.mastodon kullanıcı adını ve eskihesabim@eski.mastodon adlı hesaba ait parolayı girmelisiniz.
 
-açılan yere taşındığınız (eski) hesabınızın adını kullaniciadi@alanadi biçimde girin ve takma ad oluşturun düğmesine tıklayın.
-bu eski hesabınızın yeni hesabınıza yönlendirmesini geçerli kılacak. bir nevi bu hesaba yönlendirmeye izin vermiş oluyorsunuz.
+nihayetinde eski profilinizde başka bir profile yönlendirildiğine dair bir bilgilendirme mesajı ve eski hesabınıza giriş yaptığınızda sizi ayarlar kısmına yönlendiriyor olması gerekiyor.
 
-![enter image description here](https://docs.joinmastodon.org/assets/account-aliases.jpg)
+bu işlemleri başarıyla yaptığınız anlamına gelir. takipçilerinizin tamamı bir süre içinde yeni hesabınıza aktarılmış olacaktır. 
 
-bundan sonra eski hesabınıza giriş yaptığınızda anasayfa yerine ayarlar kısmına yönlendirileceksiniz ve eski hesabınızın yeni hesabınıza yönlendirildiği ile ilgili bir bilgilendirme mesajı ile karşılaşacaksınız.
+![hesap yönlendiriliyor](./img-src/hesap-yonlendiriliyor-800x600.png)
 
-işlem yavaş sürebilir. eğer hesabınıza giriş yapmadan profilinize girdiğiniz de aşağıdaki gibi bir yönlendirme yazısı göremiyorsanız işlemleri tekrar etmeyi deneyebilir ya da biraz bekleyebilirsiniz.
+### #5 takip edilenleri aktarma
 
-![enter image description here](https://i.hizliresim.com/253tcdx.jpg)
+yeni hesabınıza giriş yapın ve ayarları açın. içe ve dışa aktar sekmesinin altındaki içe aktar sekmesini açın.
 
-### #5
+![içe aktarma](./img-src/veriyi-ice-aktar-takip-edilen-800x600.png)
 
-bu yaptıklarımız sadece takipçilerimizi aktardı. şimdi önceden indirdiğimiz takip edilenler listesini aktarmamız gerekiyor.
+takip edilenler listesi seçeneğini işaretleyin. gözat düğmesine basıp daha önce indirmiş olduğunuz "following_accounts.csv" adlı dosyayı seçin. sonra yükle düğmesine tıklayın. bu eski hesabınızdaki takip ettiğin herkesi yeni hesabınızda da takip etmenizi sağlayacak. bu işlem uzun sürebilir. nihayetinde tüm eski hesabınızdaki takip ettiklerinizi yeni hesabınızda da takip ediyor olacaksınız.
 
-![enter image description here](https://i.hizliresim.com/hksi9su.jpg)
+bu menü içerisinden daha önce aktarmak istediğiniz diğer verileri de aktarabilirsiniz. içeri aktarma türü altındaki açılır listeden ilgili seçeneği işaretleyip ilgili veriyi yüklemeniz yeterli.
 
-ayarlardan içe ve dışa aktar sekmesinin altındaki içe aktar kısmına girin ve takip edilenler listesi seçeneğini işaretleyin. gözat düğmesine basıp daha önce indirmiş olduğunuz .csv uzantılı (following_accounts.csv) dosyayı seçin. sonra yükle düğmesine basın.
+***
 
-eğer çok fazla takip ettiğiniz kişi varsa işlem biraz daha gecikmeli olabilir. nihayetinde tüm takip ettikleriniz takip edilecektir.
+görseller [GIMP](https://www.gimp.org) ile düzenlenmiştir.
 
-bu iki işlemden sonra takipçileriniz yeni hesabınıza yönlendirilecek ve yüklediğimiz liste ile de eski takip ettiklerinizi tekrar takip ediyor olacaksınız. takipçileriniz aradaki farkı isminiz dışında fark etmeyecek ve herhangi bir bildirim almayacaklardır.
+ingilizce resmi rehber için [adresini](https://docs.joinmastodon.org/user/moving/) ziyaret edebilirsiniz.
 
-rehberdeki bazı görseller doğrudan [docs.joinmastodon](https://docs.joinmastodon.org/user/moving/) üzerinden alınmıştır. metin bana aittir. istediğiniz gibi paylaşabilirsiniz.
+sorularınız varsa [@miv403@defcon.social](https://defcon.social/@miv403) ve [miv403@duck.com](mailto:miv403@duck.com) adresleri üzerinden iletişime geçebilirsiniz.
 
-sorularınız varsa veya fark ettiğiniz hatalar varsa: [@miv403@defcon.social](https://defcon.social/@miv403)
-
-miv403@duck.com
+> bu rehber resmi ingilizce rehber temel alınarak miv403 tarafından yazılmıştır. herhangi bir çeviri yoktur.
