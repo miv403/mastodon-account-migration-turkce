@@ -1,4 +1,4 @@
-# Mastodon hesap nasıl taşınır?
+# mastodon hesap nasıl taşınır?
 
 ### neleri taşıyabiliriz
 
@@ -8,13 +8,13 @@
 - susturulan hesaplar
 - yer imleri
 
-gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz tar.gz uzantılı arşiv dosyasının içinde outbox.csv adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz. arşivinizi istemek aşağıda da gösterdiğim gibi dışa
+gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz tar.gz uzantılı arşiv dosyasının içinde outbox.csv adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz. arşivinizi istemek için aşağıda da gösterdiğim gibi dışarı aktar sekmesinin içinde arşivinizi isteyin düğmesine tıklayabilirsiniz.
 
-#### #1
+### #1
 
 taşımak istediğiniz sunucuda hesap açın.
 
-#### #2
+### #2
 
 taşıyacağımız (eski) hesaba giriş yapıp tarayıcıdan ayarlar kısmına giriyoruz ve dışa aktar kısmından takip edilenler listemizi indiriyoruz. ileride lazım olacak. eğer engellenenler, susturulanlar gibi taşımak istediğiniz başka bir liste varsa onları da indirin.
 
@@ -24,7 +24,7 @@ taşıyacağımız (eski) hesaba giriş yapıp tarayıcıdan ayarlar kısmına g
 
 indirdiğiniz dosyanın yerini lütfen kaybetmeyin.
 
-#### #3
+### #3
 
 ayarlar kısmından hesap seçeneğinin altındaki hesap ayarları sekmesine girin. aşağıda bulunan farklı bir hesaba taşı başlığını bulun. sonra "buradan yapılandırın" bağlantısına tıklayın.
 
@@ -34,7 +34,7 @@ ayarlar kısmından hesap seçeneğinin altındaki hesap ayarları sekmesine gir
 
 önceden açtığımız hesabı "kullaniciadi@alanadi" biçiminde ve mevcut parolanızı ilgili kutucuklara girin. sonra yönlendirmeyi ayarla düğmesine tıklayın.
 
-#### #4
+### #4
 
 taşımak istediğiniz yeni hesabınıza giriş yapın ayarlar > hesap ayarları yolunu takip ederek aşağıdaki ekrana ulaşın. alt kısımdaki başka bir hesaptan taşıma başlığının altındaki hesap takma adı oluşturun kısmına tıklayın.
 
@@ -51,7 +51,7 @@ işlem yavaş sürebilir. eğer hesabınıza giriş yapmadan profilinize girdiğ
 
 ![enter image description here](https://i.hizliresim.com/253tcdx.jpg)
 
-#### #5
+### #5
 
 bu yaptıklarımız sadece takipçilerimizi aktardı. şimdi önceden indirdiğimiz takip edilenler listesini aktarmamız gerekiyor.
 
@@ -65,6 +65,6 @@ bu iki işlemden sonra takipçileriniz yeni hesabınıza yönlendirilecek ve yü
 
 rehberdeki bazı görseller doğrudan [docs.joinmastodon](https://docs.joinmastodon.org/user/moving/) üzerinden alınmıştır. metin bana aittir. istediğiniz gibi paylaşabilirsiniz.
 
-sorularınız varsa veya fark ettiğiniz hatalar varsa: [@miv403@defcon.social](<https://defcon.social/@miv403>
+sorularınız varsa veya fark ettiğiniz hatalar varsa: [@miv403@defcon.social](https://defcon.social/@miv403)
 
-<miv403@duck.com>
+miv403@duck.com
