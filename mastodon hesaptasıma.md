@@ -15,7 +15,7 @@ gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dış
 taşımak istediğiniz sunucuda hesap açın.
 
 #### #2
-taşıyacağımız hesaba giriş yapıp tarayıcıdan ayarlar kısmına giriyoruz ve dışa aktar kısmından takip edilenler listemizi indiriyoruz. ileride lazım olacak. eğer engellenenler, susturulanlar gibi taşımak istediğiniz başka bir liste varsa onları da indirin.
+taşıyacağımız (eski) hesaba giriş yapıp tarayıcıdan ayarlar kısmına giriyoruz ve dışa aktar kısmından takip edilenler listemizi indiriyoruz. ileride lazım olacak. eğer engellenenler, susturulanlar gibi taşımak istediğiniz başka bir liste varsa onları da indirin.
 
 ![işaretli olan csv yazısına tıklayın ve takip edilenler listesini indirin](https://i.hizliresim.com/5ewv7sz.jpg)
 
