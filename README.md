@@ -62,11 +62,11 @@ bu işlem uzun sürebilir. nihayetinde tüm takipçileriniz herhangi bir bildiri
 
 > kutucuğa yenihesabim@yeni.mastodon kullanıcı adını ve eskihesabim@eski.mastodon adlı hesaba ait parolayı girmelisiniz.
 
+![hesap yönlendiriliyor](./img-src/hesap-yonlendiriliyor-800x600.png)
+
 nihayetinde eski profilinizde başka bir profile yönlendirildiğine dair bir bilgilendirme mesajı ve eski hesabınıza giriş yaptığınızda sizi ayarlar kısmına yönlendiriyor olması gerekiyor.
 
 bu işlemleri başarıyla yaptığınız anlamına gelir. takipçilerinizin tamamı bir süre içinde yeni hesabınıza aktarılmış olacaktır. 
-
-![hesap yönlendiriliyor](./img-src/hesap-yonlendiriliyor-800x600.png)
 
 ### #5 takip edilenleri aktarma
 
