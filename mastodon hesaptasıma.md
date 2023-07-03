@@ -1,9 +1,15 @@
-﻿# mastodon hesap nasıl taşınır?
+# mastodon hesap nasıl taşınır?
 
 
 ### neleri taşıyabiliriz
+
 - takipçiler
 - takip edilenler
+- engellenen kişiler
+- susturulan hesaplar
+- yer imleri
+
+gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz tar.gz uzantılı arşiv dosyasının içinde outbox.csv adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz.
 
 #### #1
 taşımak istediğiniz sunucuda hesap açın.
