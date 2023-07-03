@@ -53,4 +53,8 @@ eğer çok fazla takip ettiğiniz kişi varsa işlem biraz daha gecikmeli olabil
 
 bu iki işlemden sonra takipçileriniz yeni hesabınıza yönlendirilecek ve yüklediğimiz liste ile de eski takip ettiklerinizi tekrar takip ediyor olacaksınız.
 
-sorularınız varsa @miv403@defcon.social
+rehberdeki bazı görseller doğrudan [docs.joinmastodon](https://docs.joinmastodon.org/user/moving/) üzerinden alınmıştır. metin bana aittir. istediğiniz gibi paylaşabilirsiniz.
+
+sorularınız varsa veya fark ettiğiniz hatalar varsa: [https://defcon.social/@miv403](@miv403@defcon.social)
+
+miv403@duck.com
