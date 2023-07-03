@@ -55,6 +55,6 @@ bu iki işlemden sonra takipçileriniz yeni hesabınıza yönlendirilecek ve yü
 
 rehberdeki bazı görseller doğrudan [docs.joinmastodon](https://docs.joinmastodon.org/user/moving/) üzerinden alınmıştır. metin bana aittir. istediğiniz gibi paylaşabilirsiniz.
 
-sorularınız varsa veya fark ettiğiniz hatalar varsa: [https://defcon.social/@miv403](@miv403@defcon.social)
+sorularınız varsa veya fark ettiğiniz hatalar varsa: [@miv403@defcon.social](https://defcon.social/@miv403)
 
 miv403@duck.com
