@@ -12,7 +12,7 @@
 
 ## neler taşınamaz?
 
-gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz ``.tar.gz`` uzantılı arşiv dosyasının içinde ``outbox.csv`` adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz. ayrıca hesabınıza ait diğer tüm veriler arşiv dosyasının içinde mevcuttur.
+gönderilerinizi taşıyamazsınız ama hesabınızın arşivini isteyerek dışarı aktarabilirsiniz. indirdiğiniz ``.tar.gz`` uzantılı arşiv dosyasının içinde ``outbox.json`` adlı dosyada tüm iletilerinizi (tootlar ve doğrudan mesajlar) bulabilirsiniz. ayrıca hesabınıza ait diğer tüm veriler arşiv dosyasının içinde mevcuttur.
 
 isterseniz taşımadan önce eski hesabınızdaki gönderileri yeniden paylaşarak (boostlayarak) yeni hesabınızda gözükmesini sağlayabilirsiniz.
 
